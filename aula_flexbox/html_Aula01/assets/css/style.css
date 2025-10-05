@@ -1,0 +1,50 @@
+body {
+    background-color: #230a44;
+    color: #e3ddf3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+    color: #0dbfecff;
+}
+
+.cabecalhoContainer {
+    display: flex;
+    padding: 11px;
+}
+
+.celulaContainer {
+    flex: 1;
+}
+
+.tituloSite {
+    margin: 0;
+    line-height: 1.1;
+    font-size: 48px;
+}
+
+.linkNavContainer {
+    gap: 20px;
+    justify-content: center;
+}
+
+.linkNav {
+    flex: 0 0 auto;
+}
+
+.corpoContainer {
+    display: flex;
+    width: 80%;
+    align-self: center;
+    margin: auto;
+    padding: 0px 15px 0px 15px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: rgb(159, 123, 189);
+}
